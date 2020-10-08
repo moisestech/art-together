@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* CHAT */
+
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px solid #fafafa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chat-details {
+  flex: 1;
+}
+
+.chat-details > p {
+  color: gray;
+}
+
+.chat-timestamp {
+  color: lightgray;
+}
+
+.chat-image {
+  margin-right: 20px;
+}
+
+/* CHAT SCREEN */
+
+.chatscreen {
+  scroll-behavior: smooth;
+}
+
+.chatscreen-message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.chatscreen-text {
+  margin-left: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.chatscreen-timestamp {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+}
+
+.chatscreen-text-user {
+  margin-left: auto;
+  background-color: #29b3cd;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+.chatscreen-space {
+  height: 70px;
+}
+
+.chatscreen-input {
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.chatscreen-input-field {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.chatscreen-input-button {
+  border: none;
+  margin-right: 20px;
+  background-color: white;
+  font-weight: bolder;
+  color: #fe3d71;
+}
+
+/* CHATS */
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.header-logo {
+  height: 40px;
+  object-fit: contain;
+}
+
+.header-icon {
+  padding: 20px;
+}
+
+/* SWIPE BUTTONS */
+
+.swipe-buttons {
+  position: fixed;
+  bottom: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.swipe-buttons .MuiIconButton-root {
+  background-color: #fff;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.swipe-buttons-repeat {
+  padding: 3vw !important;
+  color: #f5b748 !important;
+}
+
+.swipe-buttons-left {
+  padding: 3vw !important;
+  color: #ec5e6f !important;
+}
+
+.swipe-buttons-star {
+  padding: 3vw !important;
+  color: #62b4f9 !important;
+}
+
+.swipe-buttons-lightning {
+  padding: 3vw !important;
+  color: #915dd1;
+}
+
+/* ART CARDS */
+
+.art-card {
+  position: relative;
+  width: 600px;
+  padding: 2px;
+  max-width: 85vw;
+  height: 50vh;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+  background: green;
+}
+
+.artcards-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.swipe {
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  top: 15%;
+}
+
+.card > h3 {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+}

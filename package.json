@@ -1,0 +1,70 @@
+{
+  "name": "art-together",
+  "version": "1.0.0",
+  "description": "Art Together - Match with People who like Contemporary Art",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "NODE_ENV='production' webpack"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/syntax-dynamic-import"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moisestech/art-together.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "Match",
+    "Art Together"
+  ],
+  "author": "Moises Sanabria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moisestech/art-together/issues"
+  },
+  "homepage": "https://github.com/moisestech/art-together#readme",
+  "dependencies": {
+    "@apollo/client": "^3.2.2",
+    "@babel/core": "^7.11.6",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "babel-plugin-syntax-dynamic-import": "",
+    "graphql": "^15.3.0",
+    "prop-types": "",
+    "query-string": "",
+    "react": "^17.0.0-rc.2",
+    "react-dom": "^17.0.0-rc.2",
+    "react-router-dom": "",
+    "react-tinder-card": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "",
+    "@babel/plugin-proposal-class-properties": "",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "",
+    "@babel/preset-react": "",
+    "babel-loader": "",
+    "copy-webpack-plugin": "",
+    "css-loader": "",
+    "html-webpack-plugin": "",
+    "style-loader": "",
+    "svg-url-loader": "",
+    "webpack": "",
+    "webpack-cli": "",
+    "webpack-dev-server": ""
+  }
+}
